@@ -5,11 +5,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import * as serviceWorker from './serviceWorker';
 import EmployeePage from './pages/EmployeePage';
+import MemoHook from './hooks/MemoHook';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <EmployeePage/>
+   {/*  <EmployeePage/> */}
+   <MemoHook/>
   </React.StrictMode>,
   document.getElementById('root')
 );
